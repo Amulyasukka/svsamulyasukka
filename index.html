@@ -312,48 +312,9 @@
          
 
 
-        <!--
-          - testimonials modal
-        -->
 
-        <div class="modal-container" data-modal-container>
+        
 
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Karthik P" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  I’ve had the pleasure of working with SVS Amulya, and her technical expertise and collaborative spirit are truly commendable. 
-                    From building scalable microservices with Spring Boot to crafting seamless front-end interfaces using Angular and React, she delivers excellence in every project. 
-                    Amulya’s ability to tackle challenges with creativity and a solution-driven mindset, combined with her enthusiasm for learning, makes her an invaluable asset.
-                    Her professionalism and positive energy inspire teams and drive success consistently.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
 
       </article>
 
@@ -390,8 +351,21 @@
               <span>Jan 2023 — Dec 2024</span>
 
               <p class="timeline-text">
-                Master's in Computer Science.               
+                "Pursued Master's in Computer Science at Saint Louis University, where I gained a comprehensive understanding of advanced computing concepts. 
+                
               </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Anil Neerukonda Institute of technology and sciences</h4>
+
+              <span>June 2013 — May 2017</span>
+
+              <p class="timeline-text">
+                Bachelor's of Technology in the course of Electrical and Electronics engineering.
+              </p> 
 
             </li>
 
@@ -420,6 +394,11 @@
 
               <span>Jul 2023 — Present</span>
 
+              <p class="timeline-text">
+                At CNH, I am part of a dynamic team focused on improving and scaling the company's digital platforms that support agricultural 
+                and construction equipment brands. The primary goal of this project is to develop and enhance digital tools that provide a seamless user 
+                experience, improve system performance, and ensure the scalability of CNH’s digital infrastructure. 
+              </p>
 
             </li>
 
@@ -432,6 +411,12 @@
 
               <span>May 2021 — Jun 2023</span>
 
+              <p class="timeline-text">
+                At Wipro, I contributed to a project focused on developing digital solutions for predictive maintenance of IoT-enabled equipment. 
+                The goal was to build real-time data dashboards using Angular and scalable microservices with Spring Boot while utilizing Apache Kafka 
+                for data streaming and AWS Lambda for serverless architecture. The project aimed to enhance operational efficiency by enabling real-time 
+                monitoring and predictive maintenance insights.
+              </p>
 
             </li>
 
@@ -442,6 +427,11 @@
 
               <span>Dec 2019 – Apr 2021</span>
 
+              <p class="timeline-text">
+                At First Citizens BancShares, I worked on a digital onboarding system aimed at enhancing the customer experience 
+                by enabling seamless account openings, KYC verification, and document uploads online. The project’s goal was to 
+                streamline and automate the onboarding process, improving efficiency and security.
+              </p>
 
             </li>
 
@@ -452,7 +442,10 @@
 
               <span>Feb 2018 – Nov 2019</span>
 
-              
+              <p class="timeline-text">
+                At Approved Admission, I contributed to developing an internal Employee Performance Management System (EPMS)
+                 to optimize performance evaluations, goal tracking, and feedback processes.
+              </p>
 
             </li>
 
@@ -463,7 +456,10 @@
 
               <span>May 2016 – Feb 2018</span>
 
-              
+              <p class="timeline-text">
+                At Approved Admission, I contributed to developing an internal Employee Performance Management System (EPMS)
+                 to optimize performance evaluations, goal tracking, and feedback processes.
+              </p>
 
             </li>
 
@@ -533,6 +529,247 @@
           </ul>
 
         </section>
+
+      
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
       </article>
 
 
